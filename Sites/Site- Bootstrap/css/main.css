@@ -1,0 +1,399 @@
+
+h1,h2,h3,h4,a,button,p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+h3{   
+    padding: 80px 0px 30px 0px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;   
+}
+#banner{
+    height: 554px;
+    background-image: url(/assets/assets/img/hero-image.png);
+}
+#banner .background{
+    height: 554px;
+    display: block;
+    background-color: rgb(255, 255, 255, 0.8);   
+}
+#banner h5{
+    font-size: 16px;
+    line-height: 16px;
+    color: #111111;
+    opacity: 0.5;
+   
+}
+#banner .cabecalho{
+    display: inline-flex;
+    align-items: center;
+    margin: 50px 0px 100px 0px;
+
+}
+.cabecalho img{
+    width: 32px;
+    height: 54px;
+}
+#banner .container{
+    display: flex;
+}
+#banner .container h1{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 48px;
+}
+
+#banner .container p span{
+    font-weight: 800;
+    color: #226ED8;
+}
+#banner .container p{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(17, 17, 17, 0.5);
+}
+#banner .container h4 {
+    margin-top: 44px;
+    margin-left: 20px;
+  
+}
+#banner .container h4 a{
+    text-decoration: none;
+    color: #226ED8;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+#banner .container button{
+    margin-top: 36px;
+    height: 45px;
+    width: 137px;
+    border-radius: 25px;
+    color: white;
+    background-color: #226ED8 ;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    
+}
+#banner .container button:hover{
+    background-color: #0045a5 ;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+}
+#banner .container button:not(:hover){
+    background-color: #226ED8 ;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+}
+.frase{
+    font-weight: 800;
+    color: #111111;
+}
+#banner ul li{
+    padding: 10px ;
+    
+}
+#banner ul{
+    position: absolute;   
+    height: 10px;
+    list-style: none;
+    right: 10%;
+}
+
+.duvida{
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    
+}
+
+.duvida button{
+   cursor: pointer;
+   border-radius: 30px;
+   background-color: #000000;
+   border: none;
+   box-shadow: 0 1px 5px rgba(0,0,0,.4);
+   font-size: 24px;
+   color: white;
+     
+
+ }
+
+.duvida button.main{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   border-radius: 30px;
+   right: 0;
+   bottom: 0;
+   z-index: 20;
+   
+    
+ }
+
+.duvida button.secundary{
+   position: absolute;
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+   right: 0;
+   bottom: 0;
+   z-index: 20;
+   font-size: 14px;
+   color: white;
+   opacity: 0;
+   
+ }
+
+
+.duvida button.secundary:hover{
+   transition: all 0.5s;
+   width: 150px;
+   opacity: 1;
+ }
+.duvida button.secundary:not(:hover){
+   transition: all 0.5s;
+   width: 100px;
+   opacity: 0;
+ }
+#slider{
+    width: 350px;
+    min-height: 270px;
+    position: relative;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2% 0 0 2%;
+
+    transition: opacity 1500ms ;
+
+}
+#slider img.selected{
+    opacity: 1;
+}
+.content{
+    min-height: 270px;
+    max-width: 770px;
+    display: flex;
+    background-color: #F2F3F4;
+    border-radius: 2%;
+}
+
+.content p{
+    margin: 30px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+
+
+
+
+article h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #226ED8;
+    
+}
+.dev{
+    color: #111111;
+}
+article p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 16px 0px 64px 0px;
+
+}
+article span{
+    margin: 10px 10px 0px 0px;
+}
+
+.projetos{
+    color: rgba(63, 61, 86, 0.5);
+    margin-left: 10px;
+}
+hr{
+    margin-top: 70px;
+    opacity: 0.1;
+}
+#empresas span{
+    padding: 0px 64px 80px 0px;
+    
+}
+#empresas img{
+    padding-top: 30px;
+}
+
+#rodape{
+    min-height: 180px;
+    width: 100%;
+    background-color: #111111;
+    margin-top: 80px;
+}
+#rodape ul{
+    list-style: none;
+    display: flex;
+    
+    
+ }
+
+#rodape ul li img{
+     padding: 0px 20px 10px 0px;
+     
+ }
+#rodape .container{   
+    display: flex;    
+}
+#rodape .container p,a{ 
+    font-family: Ubuntu;  
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FDFDFD;  
+    opacity: 0.8;    
+}
+ 
+ #rodape .container div a{ 
+    font-family: Ubuntu;  
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FDFDFD;
+    opacity: 0.8;
+    
+}
+
+#rodape .row{
+    margin-top: 80px;
+    width: 100%;
+}
+
+#rodape .col{
+    left: 5%;
+}
+#rodape .col-xl{
+    left: 10%;
+
+}
+#modal{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F3F4;
+    border-radius: 5px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.form-modal {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 390px;
+    height: 620px;
+    border-radius: 10px;
+  }
+.titulo-modal{
+    padding: 20px;
+    height: 90px;
+
+    border-radius: 6px 6px 0px 0px;
+    background: #ECECEC;
+    
+}
+.titulo-modal h1{
+    margin-top:20px ;
+    margin-left: 20px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #226ED8;
+  }
+.form-modal fieldset div{
+     margin-left: 40px;
+ }
+ .form-modal fieldset{
+     border-style: none;
+ }
+.campo{
+    padding-top:10px ;
+}
+.campo label{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #111111;
+}
+ .campo input, textarea{
+    width: 310px;
+    margin-top: 5px;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #c5c5c5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    resize: none;
+ }
+ .campo textarea{
+     content: "Escreva aqui...";
+ }
+
+ .form-modal fieldset button{
+     cursor: pointer;
+     background: none;
+     border: none;
+     padding-top: 20px;
+     float:right;
+
+ 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+ }
+.btn{
+    padding-left: 180px;
+}
+
+  
+ 
+
+
+

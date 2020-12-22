@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNECT: Processo Seletivo</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/simbolo azul.svg">
+</head>
+<body>
+    <div class="duvida">
+       
+        <button class="main">?</button>
+        <button type="button" onclick="mostramodal()" class="secundary">Envie sua Duvida</button>
+        
+
+
+    </div>
+    <section id="banner">
+        <div class="background">
+            <div class="container">
+                <img src="./assets/img/simbolo azul.svg" alt="unect logo">
+                    <header>
+                        
+                        <h5><xmp> <Processo Seletivo 2021></xmp></h5>
+                    </header>
+            </div>
+            <ul>
+                <li><a href="https://www.facebook.com/UnectJr" target="_blank"><img  src="./assets/img/facebook.png" alt="facebook" style="width: 10px;"></a></li>
+                <li><a href="https://www.instagram.com/unectjr/" target="_blank"><img  src="./assets/img/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/unect-jr./?trk=top_nav_home&originalSubdomain=pl" target="_blank"><img  src="./assets/img/linkedin.png" alt="linkedin"></a></li>
+            </ul>
+            <div class="container">
+                <h1>Uma <span class="frase">frase</span><br>
+                Outra <span class="frase">frase</span><br>
+                A terceira <span class="frase">frase</span></h1>
+
+               
+               
+            </div>
+            
+            <div class="container">
+                <p>Inscrições abertas ate o dia <span>06/11</span>!</p>
+            </div>
+            <div class="container">
+                <button type="submit">Inscreva-se</button>
+                <h4><a href="#">Edital ></a></h4>
+            </div>
+            
+            
+        </div>
+        
+       
+    </section>
+
+    <section id="sobre">
+        <h3>Sobre Nós</h3>
+        <div class="container">
+            <div class="content">
+                <div id="slider">
+                    <img class="selected" src="./assets/img/sobre-bg.png" alt="slider1">
+                    <img src="./assets/img/im1.png" alt="slider2">
+                    <img src="./assets/img/team.jpg" alt="slider3">
+                    <img src="./assets/img/img2.png" alt="slider4">
+                </div>
+                <div id="botoes">
+                    <button onclick="imagemAnterior()" class="anterior"><img src="./assets/img/anterior.svg" alt="anterior"></button>
+                    <button onclick="proximaImagem()" class="proximo"><img src="./assets/img/proximo.svg" alt="proximo"></button>
+                </div>
+                <p>A Unect Jr. é uma Empresa Júnior vinculada <br>
+                     aos cursos de Computação da UTFPR-CP que <br>
+                     desenvolve sites, aplicações mobile e web, e <br>
+                     que busca, através da vivência empresarial, <br>
+                     proporcionar aos seus membros o ambiente <br>
+                     ideal para que eles se desenvolvam e <br>
+                     apliquem os seus conhecimentos, que vão <br>
+                     muito além da área de computação.</p>
+    
+            </div>
+        </div>
+    </section>
+
+    <section id="vagas">
+
+        <h3>Vagas</h3>
+        <div class="container">
+            <article class="article">
+                
+                <h4> <span><img src="./assets/img/design.svg" alt="icone design"></span> 
+                    Design <span class="projetos"> Projetos</span></h4>
+                <p>
+                    Volutpat lacus nunc gravida scelerisque et, <br>
+                    vitae vitae. Nibh tincidunt mi accumsan <br>
+                    sapien. Accumsan, est arcu cum malesuada <br>
+                    faucibus odio sit at. Sit feugiat amet <br>
+                    dignissim lectus integer nec neque, aliquam <br>
+                </p>
+            </article>
+            <article class="article">
+                <h4> <span><img src="./assets/img/code.svg" alt="icone Desenvolvedor"></span>
+                    <span class="dev">Desenvolvedor</span>  <span class="projetos"> Projetos</span> </h4>
+                <p>
+                    Volutpat lacus nunc gravida scelerisque et, <br>
+                    vitae vitae. Nibh tincidunt mi accumsan <br>
+                    sapien. Accumsan, est arcu cum malesuada <br>
+                    faucibus odio sit at. Sit feugiat amet <br>
+                    dignissim lectus integer nec neque, aliquam <br>
+                </p>
+            </article>
+            <article class="article">
+                <h4><span><img src="./assets/img/megaphone.svg" alt="icone Marketing"></span>
+                    Marketing</h4>
+                <p>
+                    Volutpat lacus nunc gravida scelerisque et, <br>
+                    vitae vitae. Nibh tincidunt mi accumsan <br>
+                    sapien. Accumsan, est arcu cum malesuada <br>
+                    faucibus odio sit at. Sit feugiat amet <br>
+                    dignissim lectus integer nec neque, aliquam <br>
+                </p>
+            </article>
+        </div>
+        <div class="container">
+            <article class="article">
+                <h4><span><img src="./assets/img/id.svg" alt="icone Administrativo"></span>
+                    Administrativo/Financeiro</h4>
+                <p>
+                    Volutpat lacus nunc gravida scelerisque et, <br>
+                    vitae vitae. Nibh tincidunt mi accumsan <br>
+                    sapien. Accumsan, est arcu cum malesuada <br>
+                    faucibus odio sit at. Sit feugiat amet <br>
+                    dignissim lectus integer nec neque, aliquam <br>
+                </p>
+            </article>
+            <article class="article">
+                <h4><span><img src="./assets/img/people.svg" alt="icone Recursos"></span>
+                    Recursos Humanos</h4>
+                <p>
+                    Volutpat lacus nunc gravida scelerisque et, <br>
+                    vitae vitae. Nibh tincidunt mi accumsan <br>
+                    sapien. Accumsan, est arcu cum malesuada <br>
+                    faucibus odio sit at. Sit feugiat amet <br>
+                    dignissim lectus integer nec neque, aliquam <br>
+                </p>
+            </article>
+            <article class="article">
+                <h4><span><img src="./assets/img/Vector.svg" alt="icone Comercial"></span>
+                    Comercial</h4>
+                <p>
+                    Volutpat lacus nunc gravida scelerisque et, <br>
+                    vitae vitae. Nibh tincidunt mi accumsan <br>
+                    sapien. Accumsan, est arcu cum malesuada <br>
+                    faucibus odio sit at. Sit feugiat amet <br>
+                    dignissim lectus integer nec neque, aliquam <br>
+                </p>
+            </article>
+
+        </div>
+    </section>
+    <hr>
+    <section id="empresas">
+        <h3>Onde estão nossos alumni?</h3>
+        <div class="container">
+            <span><img src="./assets/img/samsung-logo.svg" alt="samsung-logo"></span>
+            <span><img src="./assets/img/google-logo.svg" alt="google-logo"></span>
+            <span><img src="./assets/img/microsoft-logo.svg" alt="microsoft-logo"></span>
+            <span><img src="./assets/img/intel-logo.svg" alt="intel-logo"></span>
+            <span><img src="./assets/img/ambev-logo.svg" alt="ambev-logo"></span>
+        </div>
+    </section>
+
+    <div id="modal">
+        <form onsubmit="mostraEnvio()" class="form-modal">
+            <div class="titulo-modal">
+                <h1>Pergunte para gente &#128522; </h1>
+            </div>
+            <fieldset>
+                <div class="campo">
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome" autofocus required>
+                </div>
+                <div class="campo">
+                    <label>Email</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label>Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Escreva aqui..." rows="10" required></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit" value="Submit" style="font-weight: bolder;">Enviar</button>
+                    <button type="reset" value="Reset" onclick="sair()" style="opacity: 0.7;">Cancelar</button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <section id="rodape">
+
+            <div class="fundo-rodape">
+                <div class="container">
+                    <div>
+                        <ul>
+                            <li><a href="https://www.facebook.com/UnectJr" target="_blank"><img src="./assets/img/facebook-white.png" alt="facebook-white"></a></li>
+                            <li><a href="https://www.instagram.com/unectjr/" target="_blank"><img src="./assets/img/instagram-white.png" alt="instagram-white"></a></li>
+                            <li><a href="https://www.linkedin.com/company/unect-jr./?trk=top_nav_home&originalSubdomain=pl" target="_blank"><img src="./assets/img/linkedin-white.png" alt="linkedin-white"></a></li>
+                        </ul>
+                        <a href="https://www.unect.com.br/" target="_blank">unect.com.br</a>
+                            
+                    </div>
+                    
+    
+                </div>
+                <p class="emoji">&#127820; &#128153; &#128053;</p>
+                <div class="copy">
+                    
+                    <p><a href="#">rh.unect@gmail.com</a> -------------&copy;2020 Unect Jr.</p>
+                </div>
+
+            </div>
+
+        </section>
+    </footer>
+<script src="./index.js"></script>
+</body>
+</html>

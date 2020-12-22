@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+}
+
+.container{
+    
+    max-height: 960px;
+    display: flex;
+    margin: 0 auto;
+    background: none;
+    margin-left: 120px;
+}
+a{
+    text-decoration: none;
+    
+}
+h3{
+    
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 120px;
+    
+}
+
+h5{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    line-height: 16px;
+}
+#banner{
+    height: 554px;
+    min-width: 960px;
+    background: url(./assets/img/hero-image.png);
+    
+    
+   
+}
+#banner .container{
+    margin-left: 120px;
+}
+
+#banner .background{
+    height: 554px;
+
+    background-color: rgb(255, 255, 255, 0.8);
+   
+    
+    
+}
+#banner h5{
+    color: #111111;
+    opacity: 0.5;
+    margin-left: 10px;
+    
+    
+}
+#banner header{  
+    margin-top: 50px;
+    display: flex;
+}
+#banner img{
+    margin-top: 30px;
+    width: 32px;
+    height: 54px;
+}
+#banner ul li img{
+    padding-top: 30px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+#banner .container h1{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 48px;
+
+    margin-top: 114px;
+}
+
+#banner .container p span{
+    font-weight: 800;
+    color: #226ED8;
+}
+#banner .container p{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(17, 17, 17, 0.5);
+}
+#banner .container h4 {
+    margin-top: 48px;
+    margin-left: 20px;
+  
+}
+#banner .container h4 a{
+    
+    color: #226ED8;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+#banner .container button{
+    margin-top: 36px;
+    height: 45px;
+    width: 137px;
+    border-radius: 25px;
+    color: white;
+    background-color: #226ED8 ;
+    border: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    
+}
+#banner .container button:hover{
+    background-color: #0045a5 ;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+}
+#banner .container button:not(:hover){
+    background-color: #226ED8 ;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+}
+.frase{
+    font-weight: 800;
+    color: #111111;
+}
+
+#sobre{
+    min-width: 960px;
+}
+#botoes{
+    width: 280px;
+    height: 270px;
+    position: absolute;
+}
+#botoes button{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+
+    cursor: pointer;
+    background: none;
+    border: none;
+
+   
+}
+#botoes button.proximo{
+    left: 100%;
+
+}
+#slider{
+    width: 350px;
+    height: 270px;
+    position: relative;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2% 0 0 2%;
+
+    transition: opacity 1500ms ;
+
+}
+#slider img.selected{
+    opacity: 1;
+}
+.content{
+    display: flex;
+    background-color: #F2F3F4;
+    border-radius: 2%;
+    padding-right: 45px;
+}
+
+.content p{
+    margin: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+#vagas{
+    min-width: 960px;
+}
+.article{
+    min-height: 170px;
+    min-width: 320px;
+    margin: 0px 64px 0px 0px;
+    
+}
+.article h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #226ED8;
+    
+}
+.dev{
+    color: #111111;
+}
+.article p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 16px 0px 64px 0px;
+
+}
+.article span{
+    margin: 10px 10px 0px 0px;
+}
+
+.projetos{
+    color: rgba(63, 61, 86, 0.5);
+    margin-left: 10px;
+}
+ hr{
+     margin-top: 70px;
+     margin-bottom: 90px;
+ }
+#empresas{
+    min-width: 960px;
+}
+ #empresas span{
+     margin: 40px 64px 80px 0px;
+ }
+ 
+ #rodape{
+     min-height: 140px;
+     min-width: 960px;
+     background-color: #111111;
+ }
+
+ #banner ul{
+     width: 20px;
+     height: 10px;
+     list-style: none;
+     float: right;
+     margin: 80px 100px 0px 0px;
+     text-align: center;
+ }
+
+ #rodape ul{
+    list-style: none;
+    display: flex;
+    
+    
+ }
+
+ #rodape ul li img{
+     padding: 0px 20px 0px 0px;
+     
+ }
+
+ #rodape .container{
+     margin-left: 80px;
+     margin-top: 70px;
+     
+ }
+ #rodape .container div{
+     
+     display: flex;
+     
+     
+     
+ }
+ #rodape .container div a{
+    
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FDFDFD;
+    
+}
+
+
+.fundo-rodape{
+    display: flex;
+}
+.copy{
+    
+    float: right;
+    display: flex;
+    
+   
+}
+
+.copy p{
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FDFDFD;
+    opacity: 0.7;
+}
+.copy p a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FDFDFD;
+    
+}
+
+ .fundo-rodape p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px; 
+    padding-right: 100px;
+ }
+
+ .duvida{
+     position: fixed;
+     bottom: 15%;
+     right: 120px;
+     
+ }
+
+ .duvida button{
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #000000;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0,0,0,.4);
+    font-size: 24px;
+    color: white;
+      
+
+  }
+
+.duvida button.main{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    
+     
+  }
+
+.duvida button.secundary{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    font-size: 14px;
+    color: white;
+    opacity: 0;
+    
+  }
+ 
+
+.duvida button.secundary:hover{
+    transition: all 0.5s;
+    width: 150px;
+    opacity: 1;
+  }
+.duvida button.secundary:not(:hover){
+    transition: all 0.5s;
+    width: 100px;
+    opacity: 0;
+  }
+
+
+#modal{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F3F4;
+    border-radius: 5px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.form-modal {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 390px;
+    height: 490px;
+    border-radius: 10px;
+  }
+.titulo-modal{
+    padding: 20px;
+    height: 50px;
+
+    border-radius: 6px 6px 0px 0px;
+    background: #ECECEC;
+    
+}
+.titulo-modal h1{
+    margin-top:20px ;
+    margin-left: 20px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #226ED8;
+  }
+.form-modal fieldset div{
+     margin-left: 25px;
+ }
+ .form-modal fieldset{
+     border-style: none;
+ }
+.campo{
+    padding-top:10px ;
+}
+.campo label{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #111111;
+}
+ .campo input, textarea{
+    width: 310px;
+    margin-top: 5px;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #c5c5c5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    resize: none;
+ }
+ .campo textarea{
+     content: "Escreva aqui...";
+ }
+
+ .form-modal fieldset button{
+     cursor: pointer;
+     background: none;
+     border: none;
+     padding-top: 20px;
+     float:right;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+ }
+.btn{
+    padding-right: 25px;
+}
+
+  
+ 
