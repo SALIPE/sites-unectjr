@@ -11,7 +11,7 @@ h3{
 }
 #banner{
     height: 554px;
-    background-image: url(/assets/assets/img/hero-image.png);
+    background-image: url(../assets/assets/img/hero-image.png);
 }
 #banner .background{
     height: 554px;
